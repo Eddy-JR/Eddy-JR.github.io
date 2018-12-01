@@ -1,0 +1,173 @@
+body {
+	background: url(arcade-01.png) no-repeat, 
+	 linear-gradient(rgba(12, 15, 45, 1.1), rgb(12, 15, 45));
+	background-size: 200% 667px;
+	font-family: 'Michroma', sans-serif;
+}
+
+footer {
+	position: absolute;
+	bottom: 5%;
+	width: 100%;
+	background: #a5ffdb;
+}
+
+.button-container {
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 10%;
+	margin-bottom: 15%;
+}
+
+.button1 {
+	border:none;
+	border-radius: 8px;
+	background-color: #a2ffdb;
+	text-align: center;
+	display: inline-block;
+	font-size: 3vw;
+	margin: 20px 30px;
+	padding: .5em 1em;
+	width: 40%;
+}
+
+.button2 {
+	border:none;
+	border-radius: 8px;
+	background-color: #00ff9c;
+	text-align: center;
+	display: inline-block;
+	font-size: 3vw;
+	margin: 20px 30px;
+	padding: .5em 1em;
+	width: 40%;
+}
+
+.eyecatch {
+	margin-top: 40%;
+	width: auto;
+}
+
+.eyecatch h1 {
+	font-size: 15vw;
+	font-stretch: ultra-condensed;
+	font-style: italic;
+	font-weight: bold;
+	letter-spacing: 2px;
+	color: #3173eb;
+	text-align: center;
+	text-shadow: 2px 2px 5px #000;
+}
+
+.grid-container {
+	background-color: #a2ffdb;
+	display: grid;
+	grid-template-columns: auto 1% auto 1% auto 1% auto 10% 10% auto;
+	padding: .5% 5%;
+	font-size: 1.8vw;
+	justify-content: space-around;
+	align-content: center;
+}
+
+.main-nav {
+	display: flex;
+	font-size: 3vw;
+	justify-content: center;
+	width: 100%;
+	word-spacing: 2vw;
+	margin-top: 15px;
+}
+
+.nav-item {
+	color:#aab5eb;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+body {
+	background: url(arcade-01.png) no-repeat, 
+	 linear-gradient(rgba(12, 15, 45, 1.1), rgb(12, 15, 45));
+}
+
+footer {
+	position: absolute;
+	bottom: 5%;
+	width: 100%;
+	background: #a5ffdb;
+}
+
+.eyecatch {
+	margin-top: 100px;
+}
+
+.eyecatch h1 {
+	font-size: 10vw;
+}
+
+.grid-container {
+	background-color: #a2ffdb;
+	display: grid;
+	grid-template-columns: auto 1% auto 1% auto 1% auto 15% 15% auto;
+	padding: .5% 5%;
+	font-size: 1.4vw;
+	justify-content: space-around;
+	align-content: center;
+}
+
+.main-nav {
+	font-size: 2vw;
+}
+
+.button1, .button2{
+font-size: 12px;
+width: 150px;
+padding: 1em 1.5em;
+}
+
+}
+
+@media (min-width: 1024px) {
+body {
+	background: url(arcade-01.png) no-repeat, 
+	 linear-gradient(rgba(12, 15, 45, 1.1), rgb(12, 15, 45));
+}
+
+footer {
+	position: relative;
+	bottom: 5%;
+	width: 100%;
+	background: #a5ffdb;
+}
+
+.eyecatch {
+	margin-top: 200px;
+}
+
+.eyecatch h1 {
+	font-size: 10vw;
+}
+
+.grid-container {
+	background-color: #a2ffdb;
+	display: grid;
+	grid-template-columns: auto 1% auto 1% auto 1% auto 20% 20% auto;
+	padding: .5% 5%;
+	font-size: 1.2vw;
+	justify-content: space-around;
+}
+
+.item {
+	justify-content: center;
+}
+
+.button1, .button2{
+font-size: 1.4vw;
+width: 20%;
+padding: 1em 2em;
+}
+
+.main-nav {
+	font-size: 1.7vw;
+}
+
+}
